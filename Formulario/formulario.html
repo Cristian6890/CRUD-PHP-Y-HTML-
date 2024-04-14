@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="css/styes.css"> 
+
+</head>
+<body>
+    <div id="imagen-container">
+        <img src="img/min.png" alt="Descripción de la imagen" width="200px"> <!-- Ajusta la ruta y el ancho de la imagen según tus necesidades -->
+    </div>
+
+    <h1>Formulario de registro</h1>
+
+    <form action="datos.php" method="post">
+        <form action="datos.php" method="post">
+        
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+        
+            <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+        
+            <div class="campo">
+                <label for="identificacion">Identificación:</label>
+                <input type="text" id="identificacion" name="identificacion" required>
+            </div>
+        
+            <div class="campo">
+                <label for="telefono">Teléfono:</label>
+                <select id="tipo_telefono" name="tipo_telefono" required>
+                    <option value="celular">Celular</option>
+                    <option value="fijo">Fijo</option>
+                </select>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+        
+            <div class="campo">
+                <label for="edad">Edad:</label>
+                <input type="range" id="edad" name="edad" min="1" max="100" required>
+                <output for="edad" id="edadOutput">1</output>
+            </div>
+        
+            <div class="campo">
+                <label>Género:</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino" required>
+                <label for="femenino">Femenino</label>
+            </div>
+        
+            <div class="campo">
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea>
+            </div>
+        
+            <button type="submit" name="action" value="guardar">Guardar</button>
+            
+        </form>>
+
+
+    <script src="js/script.js"></script>
+</div>
+</body>
+</html>

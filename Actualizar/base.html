@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Datos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Selecione el dato que desea actualizar</h2>
+        <form action="buscar.php" method="post">
+            <label for="identificacion">Identificación:</label>
+            <input type="text" id="identificacion" name="identificacion" required><br><br>
+            
+            <label for="atributo">Dato a Actualizar:</label>
+            <select id="atributo" name="atributo">
+                <option value="nombre">Nombre</option>
+                <option value="apellido">Apellido</option>
+                <option value="tipo_telefono">Tipo de Teléfono</option>
+                <option value="telefono">Teléfono</option>
+                <option value="edad">Edad</option>
+                <option value="genero">Género</option>
+                <option value="descripcion">Descripción</option>
+            </select><br><br>
+            
+            <label for="nuevo_valor">Nuevo dato:</label>
+            <input type="text" id="nuevo_valor" name="nuevo_valor" required><br><br>
+            
+            <input type="submit" value="Actualizar">
+        </form>
+    </div>
+</body>
+</html>
