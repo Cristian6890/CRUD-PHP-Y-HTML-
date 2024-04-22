@@ -15,7 +15,7 @@
       <a href="Actualizar/base.html" class="lesson-button">Actualizar</a>
       <a href="Eliminar/prueba.html" class="lesson-button">Eliminar</a>
       <a href="imagen/image.html" class="lesson-button">Subir Imagen</a>
-      <a href="imagen/mostrar_img.php" class="lesson-button">Mosrar imagen</a>
+      <a href="imagen/mostrar_img.php" class="lesson-button">Mostrar imagen</a>
 
    
     </div>

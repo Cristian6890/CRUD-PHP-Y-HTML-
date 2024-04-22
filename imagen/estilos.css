@@ -1,0 +1,14 @@
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-item {
+    margin: 10px;
+}
+
+.image-item img {
+    max-width: 200px;
+    max-height: 200px;
+}

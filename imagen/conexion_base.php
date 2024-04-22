@@ -13,6 +13,4 @@ if ($conn->connect_error) {
     $conn->connect_error);
 }
 
-
-
 ?>
